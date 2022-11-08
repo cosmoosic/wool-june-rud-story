@@ -1,6 +1,7 @@
 \documentclass{article}
 
 \usepackage{setspace}
+\usepackage{eso-pic,graphicx}
 
 \usepackage[top=2cm, bottom=2cm, paperwidth=8in, paperheight=8in]{geometry}
 
@@ -19,6 +20,11 @@
 
 \onehalfspacing
 \begin{document}
+
+\phantom{;}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{Assets/woolwithwheels3}}
+
+\clearpage
 
 \input{Input/How_Wool_June_RuD_Met}
 
